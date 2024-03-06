@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Posiciones</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+{% load static %}
+<nav class="navbar navbar-dark bg-dark">
+  <div class="container-fluid">
+           <img src="{% static 'img/Logo2.png' %}" alt="" width="800" height="40">
+               </a>
+  </div>
+</nav>
+
+<nav class="navbar navbar-expand navbar-light bg-light">
+  <div class="nav navbar-nav">
+           
+    <a class="nav-item nav-link active" href="{% url 'Home'%}">Home</a>
+    <a class="nav-item nav-link active" href="{% url 'Equipos'%}">Equipos</a>
+    <a class="nav-item nav-link active" href="{% url 'Calendario'%}">Calendario</a>
+    <a class="nav-item nav-link active" href="{% url 'Posiciones'%}">Posiciones</a>
+    <a class="nav-item nav-link active" href="{% url 'Resultados' %}">Resultado</a>
+  </div>
+  </div>
+</nav>
+
+Sección de posiciones
+
+
+
+</div>
+ </div>
+
+<style>
+footer{
+
+margin-top:100px;
+
+  }
+</style>
+
+<footer class="bg-dark text-light text-center py-4">
+  <p>&copy; 2024 Website. Derechos reservados.</p>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+

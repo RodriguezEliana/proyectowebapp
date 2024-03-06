@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Equipos</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+{% load static %}
+<nav class="navbar navbar-dark bg-dark">
+  <div class="container-fluid">
+           <img src="{% static 'img/Logo2.png' %}" alt="" width="800" height="40">
+               </a>
+  </div>
+</nav>
+
+<nav class="navbar navbar-expand navbar-light bg-light">
+  <div class="nav navbar-nav">
+           
+    <a class="nav-item nav-link active" href="{% url 'Home'%}">Home</a>
+    <a class="nav-item nav-link active" href="{% url 'Equipos'%}">Equipos</a>
+    <a class="nav-item nav-link active" href="{% url 'Calendario'%}">Calendario</a>
+    <a class="nav-item nav-link active" href="{% url 'Posiciones'%}">Posiciones</a>
+    <a class="nav-item nav-link active" href="{% url 'Resultados' %}">Resultado</a>
+  </div>
+  </div>
+</nav>
+
+<div class="container mt-5">
+<div class="row">
+  <div class="col-md-6">
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Equipo</th>
+          <th scope="col">Categoría</th>
+          <th scope="col">Grupo</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Ingeniería en Computación</td>
+          <td>sub-20</td>
+          <td>A</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Ingeniería Eléctrica</td>
+          <td>sub-18</td>
+          <td>B</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td> Ingeniería en Sistemas</td>
+          <td>sub-17</td>
+          <td>C</td>
+        </tr>
+      </tbody>
+    </table>
+
+  </div>
+</div>
+</div>
+    
+    <style>
+      footer{
+      
+      margin-top:100px;
+      
+        }
+      </style>
+      
+      <footer class="bg-dark text-light text-center py-4">
+        <p>&copy; 2024 Website. Derechos reservados.</p>
+      </footer>
+      
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+      </body>
+      </html>
+      
+        
+  
